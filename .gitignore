@@ -13,6 +13,12 @@ package-lock.json
 /dist
 /out
 
+# Vite & Build tools
+.vite/
+.turbo/
+dist-ssr/
+.eslintcache
+
 # Misc
 .DS_Store
 .env
@@ -62,3 +68,14 @@ out/
 # Temporary files (Claude execution artifacts)
 tmpclaude-*
 tmp*
+
+# Debug & temporary
+*.tmp
+
+# MSW (generated)
+public/mockServiceWorker.js
+
+# Backup files
+*.backup
+*.bak
+*.swp
